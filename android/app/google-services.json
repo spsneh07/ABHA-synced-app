@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1066376738841",
+    "project_id": "abha-sync-app",
+    "storage_bucket": "abha-sync-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066376738841:android:84eee7e85450952de61288",
+        "android_client_info": {
+          "package_name": "com.example.scanner_ocr_module"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066376738841-74v3cb64s7lsjq46bps6bvvakk016857.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scanner_ocr_module",
+            "certificate_hash": "546657f0ffeba90e040cd7ef6e3df079498e716f"
+          }
+        },
+        {
+          "client_id": "1066376738841-nqmi894hi81b9b82b7917f165ou0emr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5ACge-d8J9lHSO7EYnIVQGQHLDG6KI88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066376738841-nqmi894hi81b9b82b7917f165ou0emr9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1066376738841-mnn807aceap0ugfok9sdpi6ao3gnden2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.scannerOcrModule"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
