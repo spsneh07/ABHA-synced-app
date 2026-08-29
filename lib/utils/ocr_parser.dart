@@ -4,7 +4,9 @@ import '../models/medical_record.dart';
 
 class OcrParser {
   // Provided by user
-  static const String _geminiApiKey = 'AQ.Ab8RN6JvvYhPqZ3EYWQaZP9ZJ-iwLI3XCA5FmOmNajDlhLAUBQ';
+  // To use the Gemini API, pass the key during build/run:
+  // flutter run --dart-define=GEMINI_API_KEY=your_key_here
+  static const String _geminiApiKey = String.fromEnvironment('GEMINI_API_KEY', defaultValue: '');
 
   /// Analyzes the raw OCR text using Gemini and returns a partially populated MedicalRecord.
   /// Note: The caller must still fill in id, userId, imageUrl, createdAt, and extractedText.
