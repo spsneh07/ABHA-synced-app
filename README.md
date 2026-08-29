@@ -4,7 +4,7 @@ A comprehensive, state-of-the-art Medical Record application built with **Flutte
 
 ---
 
-## 🌟 Features
+## Features
 
 ### Frontend (Flutter App)
 - **Secure Authentication**: Integrated with Firebase Auth and Google Sign-in.
@@ -22,7 +22,7 @@ A comprehensive, state-of-the-art Medical Record application built with **Flutte
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Mobile Frontend**
 - Flutter (Dart)
@@ -36,7 +36,7 @@ A comprehensive, state-of-the-art Medical Record application built with **Flutte
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── abha-backend/       # Node.js ABDM HIU Webhook server
@@ -54,7 +54,7 @@ A comprehensive, state-of-the-art Medical Record application built with **Flutte
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) (>=3.16.0)
@@ -99,7 +99,7 @@ A comprehensive, state-of-the-art Medical Record application built with **Flutte
 
 ---
 
-## 📚 Resources
+## Resources
 - [Flutter Documentation](https://docs.flutter.dev/)
 - [Google ML Kit Documentation](https://developers.google.com/ml-kit)
 - [ABDM Sandbox Documentation](https://sandbox.abdm.gov.in/)
