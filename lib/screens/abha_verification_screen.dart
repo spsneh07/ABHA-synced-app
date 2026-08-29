@@ -105,7 +105,7 @@ class _AbhaVerificationScreenState extends State<AbhaVerificationScreen> {
     final abhaService = Provider.of<AbhaService>(context, listen: false);
     final identifier = _identifierController.text.trim();
     
-    final error = await abhaService.verifyOtpAndLink(identifier, otp);
+    final error = await abhaService.verifyOtp(identifier, otp);
     
     if (mounted) {
       setState(() => _isLoading = false);
